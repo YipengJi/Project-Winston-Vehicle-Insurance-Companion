@@ -1,0 +1,4 @@
+dent
+car_crash
+scratch
+windshield_break

@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.github.andrewmourcos.winston10"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] /Users/andrewmourcos/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="Winston — Always there for you"
+16-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:8:9-55
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:11:9-40
+21        <activity android:name="io.github.andrewmourcos.winston.winston10.CameraActivity" />
+21-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:12:9-61
+21-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:12:19-49
+22        <activity android:name="io.github.andrewmourcos.winston.winston10.AmbulanceActivity" />
+22-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:13:9-55
+22-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:13:19-52
+23        <activity android:name="io.github.andrewmourcos.winston.winston10.MoveActivity" />
+23-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:14:9-50
+23-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:14:19-47
+24        <activity android:name="io.github.andrewmourcos.winston.winston10.StartActivity" />
+24-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:15:9-51
+24-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:15:19-48
+25        <activity android:name="io.github.andrewmourcos.winston.winston10.MainActivity" >
+25-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:16:9-22:20
+25-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:18:17-69
+27-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:20:17-77
+29-->/Volumes/SuperBook/GitHub/Winston/winston10/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/andrewmourcos/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+34            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/andrewmourcos/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+35            android:authorities="io.github.andrewmourcos.winston10.lifecycle-process"
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/andrewmourcos/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+36            android:exported="false"
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/andrewmourcos/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+37            android:multiprocess="true" />
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/andrewmourcos/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+38    </application>
+39
+40</manifest>
