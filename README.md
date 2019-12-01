@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 # Winston
+- created at Hack the 6th, 2019 by Penny Ji, Andrew Mourcos and Robert Toyonaga.
+
 Winston is an Android application that assists users after they have been in a car crash. Winston collects data, and 
 compiles a report that will help in the insurance claim process. Winston uses tensorflow-lite to classify types of car 
 damage in real time on the user's phone. This can all be done locally, without internet access.
