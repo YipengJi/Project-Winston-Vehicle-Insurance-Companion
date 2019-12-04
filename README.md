@@ -24,3 +24,4 @@ Our AI-based app can instruct the customer what to do after an accident happens,
 ### How I built it
 
 We used both TensorFlow and TensorFlow Lite to train on thousands of collision images we scraped from the internet. We classified them accurately and trained the model to identify them. Then we integrate the trained model into an Android app with Android Studio.
+
